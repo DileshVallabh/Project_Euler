@@ -105,7 +105,7 @@ void problem_6(const unsigned int maximum) {
 
 void problem_7(unsigned int n) {
     double limit = Logarithmic_Integral::Exponential_Definition::inverse_li(n);
-    limit = (limit * ((1 / limit) + 1.5));
+    limit = (limit * 1.5); // Account for error -> pi(x)-li(x).
 
     unsigned int sieve_limit = ceil(limit);
 
