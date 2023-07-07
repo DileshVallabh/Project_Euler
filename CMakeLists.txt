@@ -10,9 +10,10 @@ add_executable(
 
 #find_package(Eigen3 REQUIRED)
 
-find_package(Boost 1.74 COMPONENTS program_options REQUIRED)
-
-target_link_libraries(${PROJECT_NAME} Boost::program_options)
+find_package(Boost 1.74 REQUIRED)
+if(Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+endif()
 
 target_include_directories(
     ${PROJECT_NAME}
