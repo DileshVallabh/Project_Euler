@@ -13,6 +13,7 @@
 #include <math.h>
 
 #include <vector>
+#include <map>
 
 namespace Factorisation {
 template <typename T>
