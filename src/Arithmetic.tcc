@@ -10,6 +10,7 @@
  */
 
 #include <Factorisation.hpp>
+#include <map>
 #include <vector>
 
 template <typename T>
