@@ -3,7 +3,7 @@
  * @brief Implementation file for Euler_Problems.
  */
 
-#include "Euler_Problems.h"
+#include "Euler_Problems.hpp"
 
 #include <math.h>
 

@@ -12,8 +12,7 @@
 #include <iostream>
 #include <map>
 
-#include "Algorithm_Functions.h"
-#include "Euler_Problems.h"
+#include "Euler_Problems.hpp"
 
 using std::cout;
 using std::endl;
