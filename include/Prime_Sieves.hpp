@@ -31,3 +31,5 @@ template <typename T>
 std::vector<T> eratosthenes(T N_limit);
 
 }  // namespace Sieves
+
+#include "Prime_Sieves.tcc"
