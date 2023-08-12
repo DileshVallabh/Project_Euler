@@ -10,9 +10,12 @@ add_library(Euler_Problems STATIC # avoid recompiling
     src/Euler_Problems.cpp
 )
 
-add_library(Algorithm_Functions STATIC # avoid recompiling
-    src/Algorithm_Functions.cpp
-    src/Algorithm_Functions.tcc
+add_library(Numeric_Utilities STATIC # avoid recompiling
+    src/Numeric_Utilities.cpp
+)
+
+add_library(Special_Functions STATIC # avoid recompiling
+    src/Special_Functions.cpp
 )
 
 add_executable(
@@ -20,7 +23,8 @@ add_executable(
 )
 target_link_libraries(${PROJECT_NAME}
     Euler_Problems
-    Algorithm_Functions
+    Numeric_Utilities
+    Special_Functions
 )
 
 #find_package(Eigen3 REQUIRED)
