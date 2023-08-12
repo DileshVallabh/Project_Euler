@@ -11,7 +11,11 @@
 #include <iostream>
 #include <vector>
 
-#include "Algorithm_Functions.h"
+#include "Arithmetic.hpp"
+#include "Factorisation.hpp"
+#include "Numeric_Utilities.hpp"
+#include "Prime_Sieves.hpp"
+#include "Special_Functions.hpp"
 
 using std::cout;
 using std::endl;
