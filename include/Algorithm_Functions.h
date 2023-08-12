@@ -67,14 +67,6 @@ double inverse_li(const double y, const double tolerance = 1e-6,
 /// @return bool True if palindrome.
 bool is_palindrome(unsigned int number);
 
-/**
- * @brief Compute the least common multiple of a list of numbers.
- *
- * @tparam T
- * @param list_numbers List of numbers to find the LCM of.
- * @return T Least common multiple.
- */
-template <typename T>
-T least_common_multiple(std::vector<T> list_numbers);
+
 
 #include "Algorithm_Functions.tcc"
