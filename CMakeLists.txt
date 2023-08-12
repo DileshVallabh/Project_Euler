@@ -51,14 +51,6 @@ if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
 endif()
 
-target_compile_features(
-    ${PROJECT_NAME} PRIVATE cxx_std_20
-)
-
-target_compile_options(
-    ${PROJECT_NAME}  PRIVATE -Wall -Wextra -Wpedantic
-)
-
 add_executable(test_unit
     src/Algorithm_Functions.test.cpp
 )
