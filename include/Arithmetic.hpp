@@ -22,4 +22,4 @@
 template <typename T>
 T least_common_multiple(std::vector<T> list_numbers);
 
-#include <Arithmetic.tcc>
+#include "Arithmetic.tcc"

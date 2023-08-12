@@ -30,4 +30,4 @@ std::vector<std::pair<T, T>> prime_exponents(std::vector<T>& prime_factors);
 
 }  // namespace Factorisation
 
-#include <Factorisation.tcc>
+#include "Factorisation.tcc"
