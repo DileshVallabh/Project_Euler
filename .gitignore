@@ -35,8 +35,8 @@
 
 # Doxygen
 
-html/
-latex/
+**/html/
+**/latex/
 
 # VS Code
 .vscode
