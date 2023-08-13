@@ -16,7 +16,7 @@
 namespace Sieves {
 
 template <typename T>
-std::vector<T> Sieves::eratosthenes(T N_limit) {
+std::vector<T> eratosthenes(T N_limit) {
     bool* candidates = new bool[N_limit];
 
     for (T i = 2; i < N_limit; i++) {
