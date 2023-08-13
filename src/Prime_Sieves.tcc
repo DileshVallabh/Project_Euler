@@ -15,7 +15,7 @@
 
 namespace Sieves {
 
-template <typename T>
+template <std::integral T> // Integral types only
 std::vector<T> eratosthenes(T N_limit) {
     bool* candidates = new bool[N_limit];
 
