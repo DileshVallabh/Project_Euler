@@ -16,7 +16,7 @@
 #include <map>
 
 namespace Factorisation {
-template <typename T>
+template <std::integral T>
 std::vector<T> prime_factorise(T N) {
     std::vector<T> factors;
 
