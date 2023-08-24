@@ -20,8 +20,8 @@ template <typename T>
 std::vector<T> prime_factorise(T N) {
     std::vector<T> factors;
 
-    if (N == 1) {
-        return std::vector<T>{1};
+    if (N == 1 || N == 0) {
+        return std::vector<T>();
     }
 
     while (N % 2 == 0) {
