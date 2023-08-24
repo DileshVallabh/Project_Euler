@@ -27,7 +27,7 @@ namespace Sieves {
  */
 std::vector<int> eratosthenes(int N_limit);
 
-template <typename T>
+template <std::integral T>
 std::vector<T> eratosthenes(T N_limit);
 
 }  // namespace Sieves
