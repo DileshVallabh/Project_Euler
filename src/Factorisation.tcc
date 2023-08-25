@@ -4,16 +4,15 @@
  * @brief Implementations of factorisation template functions.
  * @version 0.1
  * @date 2023-08-12
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
-
 
 #include <math.h>
 
-#include <vector>
 #include <map>
+#include <vector>
 
 namespace Factorisation {
 template <std::integral T>
